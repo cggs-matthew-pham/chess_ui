@@ -12,7 +12,7 @@ engine.configure(
 def player_moved(move):
     print("Player:", move)
     # Uncomment to automatically make AI move
-    stockfish_move()
+    # stockfish_move()
 
 
 def stockfish_move():
