@@ -72,9 +72,9 @@ class ChessUI:
 
                 button = tk.Button(
                     self.board_frame,
-                    width=4,
-                    height=2,
-                    font=("Arial", 24),
+                    width=3,
+                    height=1,
+                    font=("Arial", 20),
                     command=lambda s=square: self.square_clicked(s)
                 )
 
